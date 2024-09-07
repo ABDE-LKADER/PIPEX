@@ -11,8 +11,7 @@
 # **************************************************************************** #
 
 NAME		=	pipex
-SRCS		=	pipex.c \
-				execute.c
+SRCS		=	pipex.c execute.c
 HEADER		=	pipex.h
 
 OBJS		=	$(SRCS:.c=.o)
